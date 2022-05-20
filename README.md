@@ -1,7 +1,7 @@
 # TODO APP en React.Js ⚛
 ### Aplicacion de tareas en la cual podemos crear tareas, editarlas, eliminarlas y cambiar su estado de incompleta a tarea completada.
 ### Preview del proyecto.
-![listadousuarios](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o5id905ll6md30ejmjjm.png)
+![listadousuarios](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/49jplu0fmgfyvc5rfvfy.png)
 
 ### Puedes clonar este repositorio si deseas probar la aplicacion, te diriges a tu terminal o linea de comandos e introduces el siguiente comando: `$ git clone <link-repositorio>`.
 

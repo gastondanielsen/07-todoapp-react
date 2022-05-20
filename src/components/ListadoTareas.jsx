@@ -8,7 +8,7 @@ const ListadoTareas = ({tareas, eliminarTarea, cambiarEstado, setEdit}) => {
       { tareas.length > 0 ?
         tareas.map(tarea => (
           <div className='listTareas' key={tarea.id}>
-            <p>{tarea.nombre}</p>
+            <p>{tarea.estado ? <del className='del'>{tarea.nombre}</del> : tarea.nombre}</p>
             <div className='actions'>
               <button className={`${tarea.estado ? 'complete' : 'status'}`} onClick={() => cambiarEstado(tarea.id)}>{tarea.estado ? 'Completada' : 'Incompleta'}</button>
               <button className='edit' onClick={() => setEdit(tarea)}>Editar</button>
